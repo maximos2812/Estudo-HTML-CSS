@@ -1,0 +1,380 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+
+
+
+
+
+*{
+    margin: 0px;
+}.secao-01 {
+    background-color: rgb(99, 99, 255);
+    height:60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+
+}
+
+.cabecalho-01 {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 30vh;
+    width: 90vw;
+    margin-right: 30px;
+    margin-top: 40px;
+
+}
+.cabecalho-01 div {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+a { font: 17px 'discord3';
+    color:#fff
+}
+.cabecalho-01 h1 {
+    align-self: flex-start;
+    color: #fff;
+    font: 17px 'discord1';
+}
+.texto-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30vh;
+    width: 80vw;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    
+}
+.texto-01 h1{
+    font: 55px 'discord1';
+    color: #fff;
+}
+.texto-01 h2{
+    font: 20px 'discord3';
+    color:#fff;
+    margin-top: 10px;
+}
+#secaoum {
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    width: 120px;
+    height: 35px;
+    position: relative;
+    bottom: 25px;
+}
+#secaoum a {
+    color: black;
+    font: 15px 'discord3';
+}
+.secao-01 img {
+    position: relative;
+    left: 130px;
+    bottom:  5px;
+    width: 40px;
+    height: 30px;
+}
+
+
+.secao-02 {
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.texto-S2 {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 85vw;
+    padding: 10px;
+    width: 90vw;
+}
+
+.texto-S2 > h1{
+    margin-bottom: 30px;
+    font-family:'discord2';
+    font-size: 32px;
+    
+}
+
+
+.texto-S2 > h2{
+    font: 20px 'discord2';
+}
+
+.cards-S2{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ .cards-S2 div {
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+   ;
+    
+  }
+  .cards-S2 > div  h1 {
+    color: rgb(94, 94, 240);
+    font: 30px 'discord5';
+    
+  }
+  .cards-S2 > div h2 {
+    font: 20px 'discord2';
+    
+  }
+  a {
+    color: rgb(158, 158, 255);
+    transform: scale(2.);
+  }
+  
+
+
+  .rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px ;
+
+    color: #fff;
+    height: 70vh;
+    width: 100%;
+    background-color: #2c2f33;
+}
+
+.maeroda {
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 60vw;
+    height: 50vh;
+}
+
+.produto, .empresa, .recursos, .politica {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 30px;
+    width: 20vw;
+}
+
+
+.esquerda a, .produto a, .empresa a, .recursos a, .politica a{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+} 
+
+
+ .produto h6, .empresa h6, .recursos h6, .politica h6 {
+    font: 15px 'discord';
+    margin-bottom: 10px;
+    color: #5865f2;
+ }
+
+ .esquerda h1 {
+    color: #5865f2;
+    font: 32px 'discord1';
+    margin-bottom: 10px;
+ }
+
+ .esquerda {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 30px;
+    width: 35vw;
+ }
+
+
+ .ultimo {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+.long {
+    background-color: #5865f2;
+    width: 60vw;
+    height: 1px;
+}
+
+.ultimo svg {
+    height: 25px;
+    margin-top: 20px;
+}
+
+
+.botao {
+    display: flex;
+    justify-content: end;
+}
+
+
+.secao-03{
+    display: flex;
+    flex-direction: column;
+    background: color #f6f6f6;;
+}
+
+.texto-S3{
+    text-align : center;
+}
+.texto-S3 > h1{
+    font-family:'discord1';
+    font-size:30px ;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.texto-S3 > h3{
+    font-family: 'discord2';
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-self: center;
+}
+
+.cards-lado-01, .cards-lado-02,.cards-lado-03{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cards-lado-01 > div, .cards-lado-02 > div,.cards-lado-03 > div{
+    width: 45vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+.cards-lado-01 > div > img,.cards-lado-02 > div > img,.cards-lado-03 > div > img{
+    margin-bottom: 30px;
+
+}
+
+.cards-lado-01 > div > p, .cards-lado-02 > div > p,.cards-lado-03 > div > p{
+ width: 70%;
+ font-family: 'discord3';
+ font-size: 20px;
+ font-weight: lighter;
+ margin-top: 20px;
+ margin-bottom: 15px;
+}
+
+.cards-lado-01 > div > h1, .cards-lado-02 > div > h1,.cards-lado-03 > div > h1{
+    font-family: 'discord6';
+    font-size: 40px;
+}
+
+.ladinho-S3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+.ladinho-03 > a{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ladinho-S3 > p{
+    font-family: 'discord3';
+    font-weight: lighter;
+    font-size: 19px;
+    width: 70%;
+   
+}
+
+.ladinho-S3 > img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 100px;
+    
+}
+
+.cards-lado-04{
+    margin-left: 70px;
+
+}
+
+.cards-lado-04 > div{
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 110vh;
+    width: 45vw;
+    background-color:aliceblue ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-lado-04 > div > p{
+    width: 65%;
+    text-align: center;
+    font-family: 'discord3';
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.cards-lado-04 > div > h1{
+    font-family: 'discord6';
+    font-size: 40px;
+}
+
+button{
+    background-color:#5865f2;;
+    color: #f6f6f6;
+    font-size: 17px;
+    height: 50px;
+    width: 180px;
+    font-family: 'discord4';
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+}

@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family:'font1' ;
+    src: url(../assets/fonts/af7ae505a9eed503f8b8e6982036873e.woff2);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(../assets/fonts/boing-400.woff2);
+}
+@font-face {
+    font-family: 'font3';
+    src: url(../assets/fonts/boing-500.woff2);
+}

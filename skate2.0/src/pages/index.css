@@ -1,0 +1,442 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'skate';
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cabecalho{
+    z-index: 1;
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    font-family: 'skate';
+}
+.cabecalho-cima{
+    display: flex ;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.cabecalho-cima img {
+    cursor: pointer;
+    margin-left : 15px;
+   width: 13px;
+}
+
+
+.cabecalho-meio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cabecalho-lado-direito {
+    display: flex;
+    flex-direction: row;
+}
+.cabecalho-lado-direito img{
+    width: 20px; 
+}
+.cabecalho-lado-direito a {
+    text-decoration: none;
+    color: black;
+}
+.cabecalho-lado-direito div {
+    margin-left: 30px;
+}
+.logo{
+    cursor: pointer;
+    width: 200px;
+
+}
+.cabecalho-meio input {
+    margin-left: 60px;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border:1px solid black;
+    color: black;
+    
+}
+
+.cabecalho-final{
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'skate';
+}
+.cabecalho-final a {
+  
+   
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.cabecalho-final img{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+
+}
+
+/*SECÃO000000000000000000000000000000000000000000000000000000000000000000000000000 2 */
+
+.section-02{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+    margin-top: 30px;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    justify-content: space-around;
+}
+
+.rodas{
+    height: 25vh;
+    width: 81%;
+    padding-top: 10px;
+    display: flex;
+    margin: 104px;
+    box-sizing: border-box;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:150px ;
+    margin-left: 175px;
+}
+  
+  .rodas2{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 25px;
+    gap: 25px;
+    position: relative;
+    left: 22%;
+    margin-top: 100px;
+  }
+
+   .imagem{
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    display: flex;
+  }
+
+  .nomedoproduto{
+    height: 50vh;
+    width: 380px;
+    color: #e1e1e14d;
+    font-size: 1rem;
+    border: solid;
+    border-radius: 4%;
+}
+
+.faixapreta{
+    height: 1%;
+    width: 100%;
+    background-color: black;
+}
+
+.nomedoproduto p{  
+    margin: 3px;
+    font-size: 0.9rem;
+    color: black;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+h6{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.preço{
+    font-size: 1rem;
+    color: black;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.nomedaroda{
+    color: #e1e1e14d;
+    border: solid;
+    border-radius: 4%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-grow: inherit;
+}
+  
+  label {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  input[type="checkbox"] {
+    appearance: none;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: #007bff;
+  }
+  
+  label[for] {
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+
+  /*seção00000000000000000000 03*/
+
+
+  .roda{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width: 100%; 
+    color: #000;
+    background: rgba(0,0,0,0.1);
+    height: 68vh;
+    
+    flex-direction: column;
+}
+
+.tre-s3 h3{
+    font-size: 24px;
+}
+
+.tre-s3{
+    margin-left: 15px;
+    margin-top: 25px;
+    padding:  25px;
+    display: flex;
+    height: 35vh;
+}
+
+.departamento {
+    width: 33vw;
+}
+
+.departamento li{
+    margin-top: 6px;
+}
+
+
+.contato ul {
+    
+    list-style-type: disc;
+    list-style: none;
+    padding: 1px;
+}
+
+.contato li {
+    margin-top: 20px;
+
+}
+
+
+.contato {
+    width: 30vw;
+}
+
+.conectado {
+    width: 30vw;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.li {
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 90%;
+}
+
+.imagem-s3{
+    height: 15vh;
+    display: flex;
+   
+}
+
+.imagem-s3 img{
+    height: 10vh;
+    align-items: center;
+    margin-left: 90px;
+    position:absolute;
+
+}
+
+.conectado img {
+    width: 6vw;
+}
+
+.fim-s3 {
+    color: white;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+}
+.imagem-end{
+    margin-bottom: 30px;
+    height: 70px;
+    width: 40px;
+}
+
+@media(max-width:1100px){
+    *{
+        font-size: 0.75em;
+    }
+
+    .rodas2{
+        flex-wrap: wrap;
+        flex-direction:row;
+    }
+
+    .nomedoproduto{
+        width: 36%;
+        
+    }
+}
+
+@media(max-width:800px){
+    *{
+        font-size: 0.65em;
+    }
+
+    .rodas > div ,.rodas2 > div{
+        height: 70vh;
+    }
+    .rodas2{
+        flex-wrap: wrap;
+        flex-direction:row;
+        font-size: 30px!important;
+    }
+
+    .cabecalho{
+        padding: 20px 20px 20px 20px;
+    }
+
+    .cabecalho-final{
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+
+    .section-02{
+        font-size: 20px;
+    }
+
+    .rodas{
+        flex-wrap: wrap;
+        flex-direction:row;
+        margin-top:100px;
+    }
+
+    .rodas form{
+        margin-left:-120px;
+    }
+
+    .rodas2{
+        margin-top: 20px;
+    }
+
+    #rodas9{
+        margin-top: 1000px;
+    }
+
+    .nomedoproduto{
+        width: 76%;
+        height: 300px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    .roda{
+        padding: 0px 0px 0px 20px;
+        
+    }
+
+    .roda h3{
+        font-size:15px;
+    }
+
+    .imagem img{
+        margin-left: -20px;
+    }
+
+    .fim-s3{
+        margin-left: -20px;
+        width: 100vw;
+    }
+
+    .tre-s3{
+        font-size: 40px
+    }
+}

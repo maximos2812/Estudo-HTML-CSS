@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="160" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M0 .977h148V140H0z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M0 0h200v160H0z"/>
+    <g transform="translate(26 13)">
+      <path fill="#F3F9FF" d="M143.5 98.4767H4.5c-1.657 0-3-1.343-3-3v-90c0-1.657 1.343-3 3-3h139c1.657 0 3 1.343 3 3v90c0 1.657-1.343 3-3 3"/>
+      <path fill="#C7CFE2" d="M143.5 2.4767h-43.484v96H143.5c1.657 0 3-1.343 3-3v-90c0-1.657-1.343-3-3-3"/>
+      <mask id="b" fill="#fff">
+        <use xlink:href="#a"/>
+      </mask>
+      <path fill="#A8AFC1" d="M91.5 67.379h-80v-40h80" mask="url(#b)"/>
+      <path stroke="#282B2E" stroke-width="3" d="M26.5988 67.3788h-15.099v-40h80v40h-44" stroke-linecap="round" stroke-linejoin="round" mask="url(#b)"/>
+      <path fill="#738BD7" d="M91.5 98.379h-36v-16h36" mask="url(#b)"/>
+      <path stroke="#282B2E" stroke-width="3" d="M55.5 97.3788v-16h36v16m-80 0v-16h36v16" stroke-linecap="round" stroke-linejoin="round" mask="url(#b)"/>
+      <path fill="#F3F9FF" d="M140.016 84.379h-33v-9h33" mask="url(#b)"/>
+      <path stroke="#282B2E" stroke-width="3" d="M140.016 84.379h-33v-9h33z" stroke-linecap="round" stroke-linejoin="round" mask="url(#b)"/>
+      <path fill="#C7CFE2" d="M19.5 20.379h-8v-8h8" mask="url(#b)"/>
+      <path stroke="#282B2E" stroke-width="3" d="M19.5 20.379h-8v-8h8zm7.099-7.0472h27.333m-27.333 5.047h13.333m60.568-5.047v83.797m-9-23.75h-9.071m-4.429 0h-7.071" stroke-linecap="round" stroke-linejoin="round" mask="url(#b)"/>
+      <path fill="#FFF" d="M85.2153 99.3788c-.576-5.484-2.861-9.608-2.861-9.608-2.992-2.242-5.829-2.171-5.829-2.171l-.29.332c3.544 1.071 5.177 2.63 5.177 2.63-2.161-1.176-4.287-1.765-6.261-1.986-1.506-.169-2.925-.124-4.202.037-.118.015-.233.033-.349.049-.728.07-2.485.333-4.716 1.309-.787.333-1.234.591-1.234.591s1.706-1.648 5.455-2.719l-.214-.243s-2.836-.071-5.829 2.171c0 0-2.284 4.124-2.86 9.608h24.013z" mask="url(#b)"/>
+      <path fill="#738BD7" d="M75.5878 99.3788h2.664c.481-.42.795-1.053.795-1.772 0-1.265-.952-2.29-2.128-2.29-1.174 0-2.126 1.025-2.126 2.29 0 .719.314 1.352.795 1.772m-7.5744 0h2.664c.481-.42.795-1.053.795-1.772 0-1.265-.952-2.29-2.126-2.29-1.176 0-2.128 1.025-2.128 2.29 0 .719.314 1.352.795 1.772" mask="url(#b)"/>
+      <path stroke="#282B2E" stroke-width="3" d="M146.5 67.3859v28.091c0 1.657-1.343 3-3 3H4.5c-1.657 0-3-1.343-3-3v-90c0-1.657 1.343-3 3-3h25m117 32.984v16.367M42.0123 2.4767h101.488c1.657 0 3 1.343 3 3v20.989" stroke-linecap="round" stroke-linejoin="round" mask="url(#b)"/>
+      <path fill="#E8EFFB" d="M107.5 140h-65c-4.694 0-8.5-3.806-8.5-8.5s3.806-8.5 8.5-8.5h65c4.694 0 8.5 3.806 8.5 8.5s-3.806 8.5-8.5 8.5" mask="url(#b)"/>
+    </g>
+  </g>
+</svg>

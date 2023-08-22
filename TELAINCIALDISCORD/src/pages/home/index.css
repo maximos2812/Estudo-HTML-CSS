@@ -1,0 +1,138 @@
+*{ box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: #f6f6f6;
+}
+.secao-01 {
+     display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 14px 0px 130px 0px;
+
+    background-color: #404eed;
+    background-size: cover;
+    color: #ffff;
+    background-image:url('../../assets/images/fundo.svg');
+    background-position: -430px 0px;
+   position: relative;
+   
+}
+.secao-01 a {
+    cursor: pointer;
+}
+.s1-tenis{
+    position: absolute;
+    bottom: 0px;
+    left: -350px;
+}
+
+.s1-suco {
+    position: absolute;
+    bottom: 0px;
+    right: -250px;
+}
+.s1-cabecalho>a{
+    font: 15px 'discord4';
+    background-color: #fff;
+    padding: 10px 20px;
+    color :#23272a;
+    border-radius: 30px;
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.s1-cabecalho{
+    font: 20px 'discord5';
+    display: flex;
+    flex-direction: row;
+
+    justify-content:space-between ;
+    align-items: center;
+    width: 1200px;
+    margin-bottom: 140px;
+    
+     
+}
+.secao-01 > h1 {
+    font: 56px 'discord1';
+     width: 500px;
+     text-align: center;
+     line-height: 50px;
+     margin-bottom: 50px;
+}
+.secao-01 > p {
+    font: 20px ' discord2';
+    width: 780px;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.s1-menu{
+   
+   display:flex;
+   flex-direction: row;
+}
+
+.s1-menu a {
+    font: 16px ' discord4';
+    margin: 5px 20px;
+}
+
+.s1-botoes{ 
+    display: flex ;
+    flex-direction: row;
+    
+
+}
+
+.s1-botoes > a { 
+    font: 20px ' discord3';
+    background-color: #fff;
+    padding: 15px 30px;
+    color :#23272a;
+    border-radius: 30px;
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+
+}
+.s1-botoes > a >svg {
+    margin-right: 10px;
+}
+
+
+ .s1-botoes > .s1-botoes-escuros {
+    background-color: #23272a;
+    color: #fff !important;
+}
+ 
+.secao-02 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 110PX 0px ;
+    background-color: #fff;
+    
+}
+.s2-textos {
+   display: flex;
+   flex-direction: column;
+   width: 370px;
+}
+.s2-textos >h1 { 
+    font: 50px 'discord5';
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+.s2-textos>p {
+    font: 20px ' discrd2';
+    line-height: 32px;
+    
+}

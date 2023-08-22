@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.fundo-tl {
+    background-color: #021722;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards-tl {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffff;
+    box-shadow: 5px 5px 5px    #e73cdf;
+    border-radius: 30px;
+    transform: scale(1.2);
+}
+.fundo-tl div :hover {
+    text-transform:  ;
+}
+input {
+    margin: 20px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 10px;
+    width:320px ;
+    height: 30px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+}
+input :hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.fundo-tl h1 {
+    font:40px 'titulo';
+    margin-bottom: 25px ;
+    margin-top: 30px;
+}
+.fundo-tl p {
+    text-align: center;
+    margin-bottom: 20px;
+    font: 20px 'arial';
+    color: #042d42;
+}
+.cards-tl div {
+    display: flex;
+    flex-direction: row;
+}
+.cards-tl div input{
+    margin: 10px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 10px;
+    width:150px ;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cards-tl button {
+    background-color: #090a09; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+
+}
+.cards-tl button :hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+

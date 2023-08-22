@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #5865f2;
+    border-radius: 40px;
+    padding: 7px 16px;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.lado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lado a {
+    padding: 10px;
+    color: #00b0f4;
+}
+
+
+.coluna-04 {
+    display: flex;
+    justify-content: start;
+
+    height: 70vh;
+    width: 55vw;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px ;
+
+    color: #fff;
+    height: 60vh;
+    width: 100%;
+    background-color: #2c2f33;
+}
+
+.maeroda {
+    display: flex;
+    justify-content: center;
+
+    width: 60vw;
+    height: 40vh;
+}
+
+.produto, .empresa, .recursos, .politica {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 30px;
+    width: 20vw;
+}
+
+
+.esquerda a, .produto a, .empresa a, .recursos a, .politica a{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+} 
+
+
+ .produto h6, .empresa h6, .recursos h6, .politica h6 {
+    font: 15px 'discord';
+    margin-bottom: 10px;
+    color: #5865f2;
+ }
+
+ .esquerda h1 {
+    color: #5865f2;
+    font: 32px 'discord1';
+    margin-bottom: 10px;
+ }
+
+ .esquerda {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 30px;
+    width: 35vw;
+ }
+
+
+ .ultimo {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+.long {
+    background-color: #5865f2;
+    width: 60vw;
+    height: 1px;
+}
+
+.ultimo svg {
+    height: 25px;
+    margin-top: 20px;
+}
+
+
+.botao {
+    display: flex;
+    justify-content: end;
+}

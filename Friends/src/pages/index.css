@@ -1,0 +1,247 @@
+ body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #030328;
+
+ }
+
+.cabecalho{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 0.6;
+    width: 99vw;
+    height: 6vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+}
+
+.logo {
+     color: #fff !important;
+    width:160px;
+     
+}
+.cabecalho a {
+    font: 12px 'font2';
+    color: #fff !important;
+ 
+}
+
+ button{
+    height: 36px;
+    width: 200px;
+  border-radius: 20px;
+  background-color:rgb(181, 53, 246) !important;
+  font: 20px 'font3';
+  color :#fff !important;
+  border: none ;
+  transition: 0.5 ;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 75px;
+}
+button:hover {
+    color: #fff;
+    background-color: #fff;
+}
+a :hover{
+    color: #fff;
+}
+
+.secao-01 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    align-items: center;
+   
+}
+.secao-01 img {
+    width:  1200px;
+   
+}
+.secao-01 h1 {font:50px 'font2';
+    color: #fff;
+}
+.h1 {
+    width: 85vw;
+}
+
+.secao-02{
+    padding: 30px;
+    margin-top:70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:1425px;
+    height: 100px;
+    background-image: url(../assets/images/frinds-fundo-02.jpg);
+}
+.secao-02 h1{
+    font: 38px'font2';
+    color: #fff;
+
+}
+
+.secao-03 {
+    height: 40vh;
+    width: 84vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.secao-03 p {
+    
+    font: 20px 'font3';
+    margin: 30px;
+    margin-top: 40px;
+    width: 680px;
+    height: 192px;
+    color: #fff;
+    line-height: 32px;
+}
+
+.secao-04{
+    width:82vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.secao-04-pt1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.secao-04-pt1 h1{
+    font: 42px 'font2';
+    color: #fff ; 
+    margin-bottom: 80px;
+}
+.secao-04-pt1 a{
+    font: 18px 'font4';
+    color:#9e86ff;; 
+}
+.secao-04-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-04-cards  img {
+   width: 250px;
+}
+.secao-04-cards h6{
+    font: 19px'font3';
+    text-align: start;
+color: #fff;    
+
+}
+.secao-04-cards p{
+ 
+    margin-top: 10px;
+    font: 12px'font3';
+    text-align: start;
+    color: #fff;    
+    }
+ .secao-04-cards a{
+    cursor: pointer;
+    text-align: center;
+    color:#9e86ff;;    
+    }
+.secao-04-cards-pt1 {
+    display: flex;
+    flex-direction:row;
+    
+}
+.secao-04-cards-pt1 div {
+    margin: 20px;
+}
+
+.secao-05 {
+    display: flex;
+    flex-direction: column;
+    width: 82vw;
+}
+
+.filmes-fl1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.filmes-fl1 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-05 img {
+    cursor: pointer;
+    width: 270px;
+    margin: 10px;
+}
+
+.secao-05 h6 {
+    cursor: pointer;
+    font: 18px 'font2';
+    color: #fff;
+    margin:10px ;
+}
+.secao-05 h2{
+    font: 42px ' font1';
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.rodape {
+    margin-bottom: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+}
+
+.rodape-pt2 {
+
+    display: flex;
+    justify-content: center;
+    width: 65vw;
+    margin: 8px;
+   
+   
+  
+}
+.rodape-pt1{
+    display: flex;
+    justify-content: center;
+    width: 65vw;
+    margin: 8px;
+}
+.rodape-pt1 a { font: 12px 'font2';
+    color: #9e86ff;
+    text-decoration: none;
+     margin-left: 12px;
+     margin-right: 12px;
+}
+.rodape-pt2 a  {
+    font: 12px 'font2';
+    color: #9e86ff;
+    text-decoration: none;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+  
+}
+.rodape p {
+    font: 12px 'font2';
+    color: #9e86ff;
+}

@@ -1,0 +1,180 @@
+body{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .cabecalho a {
+    font: 15px 'font3';
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+    padding: 15px;
+    height: 30px;
+}
+.lado-esquerdo-cabecalho{
+    display: flex;
+    align-items: flex-start;
+}
+.lado-esquerdo-cabecalho a {
+    margin-top: 5px;
+    margin-left: 35px;
+    text-decoration: none;
+    color: black;
+}
+.cabecalho button {
+    margin-left: 40px;
+    width: 100px;
+    height: 40px;
+    border: black solid 2px;
+    border-radius: 40px;
+    padding: 10px;
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    font:15px 'font3' ;
+}
+
+.logo{
+    width: 35px;
+    cursor: pointer;
+}
+.lado-direito-cabecalho a {
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right:20px;
+    text-decoration: none;
+    color: black;
+}
+.secao-01{
+    border-radius: 10px;
+    background-color: #f2f4f7;
+    height:150px;
+    width:84%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-bottom: 30px;
+}
+.secao-01 h1 {
+    margin-top: 120px;
+    margin-left: 30px;
+    font: 55px 'font3';
+}
+.img-01{
+    position: relative;
+    left:900px;
+    bottom:50px;
+    width: 250px;
+}
+.conteiner{
+    width:89%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width:100%;
+    margin: 20px;
+    border-radius: 10px;
+
+
+}
+.conteiner img{
+    margin-left: 40px;
+    width: 80px;
+}
+.conteiner button {
+    margin-left: 50px;
+    width: 400px;
+    height: 55px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    color: #000;
+    cursor: pointer;
+    font: 20px 'font3';
+}
+.conteiner h1 {
+    font: 45px 'font3';
+    margin-left: 40px;
+    text-align: start;
+}
+.conteiner p {
+    text-align: start;
+    width: 520px;
+    font:17px '';
+    margin-left: 40px;
+    text-align: start;
+}
+
+.cards-01{
+    background-color: #fce354;;
+}
+.cards-02{
+    background-color: #ff8f00;
+}
+.cards-03{
+    background-color: #3cf;;
+}
+.cards-04{
+    
+    background-color: #1ee592;
+}
+
+
+.end{
+    border-radius: 20px;
+    background-color: #963eff;
+    width: 84%;
+    height: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.end h1{
+    margin-left: 40px;
+    color: #ffff;
+}
+.end p {
+    margin-left: 40px;
+    color: #fff;
+}
+.end img {
+    margin-left: 40px;
+    width:70px;
+}
+.end button {
+    margin-left: 40px;
+    width: 450px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    font: 20px 'font3';
+ 
+}
+.end button :hover{
+    font: 20px 'font3';
+    background-color: #fff;
+    
+
+} 

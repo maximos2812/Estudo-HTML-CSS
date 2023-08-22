@@ -1,0 +1,115 @@
+.secao-01{
+    display: flex;
+   justify-content: center;
+    background-color: #5865f2;
+    width: 100vw;
+    height: 75vh;
+}
+.fundo-01{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+     width:100vw ;
+    height: 70vh;
+
+}
+.cabecalho{
+    height: 12vh;
+    width: 82vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:70px;
+}
+
+.img-secao01-cabecalho{
+    height:150px ;
+    width:150px ;
+
+}
+
+.texto-secao-01{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 540px;
+    margin:20px
+}
+.link-secao-01{
+    margin-bottom: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+    .link-secao-01 a {
+           color: #fff;
+    text-decoration: none;
+    opacity: 0.5;
+    font: 15px 'discord3';
+    }
+
+.texto-secao-01 h1{
+    margin-bottom: 15px;
+}
+.texto-secao-01 p {
+    margin-bottom: 30px;
+}
+
+
+
+
+.meio-secao-01{
+    display:flex;
+    flex-direction: row;
+    width: 85vw;
+}
+.meio-secao-01 h1 {
+    color:#fff ;
+    font: 55px 'discord1';
+}
+.meio-secao-01 p{
+    color: #fff;
+    font: 16px 'discord2';
+    line-height: 25px;
+    
+}
+
+.secao-01itens{
+    width: 690px;
+    display:flex;
+    justify-content: space-around;
+    height:50px;
+    margin: 20px;
+}
+.secao-01itens a {
+    text-decoration: none;
+    color: #fff;
+    font: 17px 'discord3';
+    margin: 10px;
+    margin-left: 20px;
+    
+}
+
+.img-secao-01-meio{
+    height: 320px ;
+    width:600px ;
+}
+.cabecalho button{
+   height: 38px;
+   width: 110px;
+   border-radius: 20px;
+   outline: none;
+   padding: 10px;
+   text-decoration: none;
+   border: none;
+
+} 
+
+
+
+
+.secao-02{
+    
+}
